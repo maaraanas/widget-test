@@ -29,7 +29,7 @@ app.get('/2', function(request, response) {
   } else {
     var envName = 'review app'
   }
-  response.render('index.html', { env: envName});
+  response.render('index2.html', { env: envName});
 });
 
 app.listen(app.get('port'), function() {
